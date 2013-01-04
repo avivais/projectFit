@@ -1,0 +1,253 @@
+/* ---------------------------------------------------------------------- */
+/* LIGHT ORANGE
+/* 
+/* 
+/* Accent color: #CB5234 ;
+/* Borders color, Submenu background: #D8D5CD ;
+/* Page background: #FFFFFF;
+/* Content Boxes background: #3F3F3F;
+/* ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+/* COLORS 
+/* ---------------------------------------------------------------------- */
+
+#page {
+	background-color:#FFFFFF; 
+}
+
+a:hover, a > *:hover,
+.categories a:hover,
+#footer .widget-container li a:hover   {
+    color: #CB5234;
+} 
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color:#CB5234;
+}
+
+
+
+#logo {
+	
+}
+
+#pre-header,
+.flex-direction-nav li a:hover {
+	background-color:#CB5234;
+}
+
+.colored,
+.flex-caption h3, 
+.intro-page h2 strong, 
+#footer h4,
+#copyrights a  {
+	color:#CB5234;
+}
+
+#pre-header,
+#slider_container {
+	border-bottom: 1pt solid #D8D5CD;
+}
+.intro-page,
+.horizontal-line,
+.divider { 
+	border-top: 1pt solid #D8D5CD;
+}
+
+
+ul#social-links li {
+   background: #C04129;
+   background: -moz-linear-gradient(top, #C04129 0%, #B23A24 100%);
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C04129), color-stop(100%,#B23A24));
+   background: -webkit-linear-gradient(top, #C04129 0%,#B23A24 100%);
+   background: -o-linear-gradient(top, #C04129 0%,#B23A24 100%);
+   background: -ms-linear-gradient(top, #C04129 0%,#B23A24 100%);
+   background: linear-gradient(top, #C04129 0%,#B23A24 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#C04129', endColorstr='#B23A24',GradientType=0 );
+   box-shadow: 0px 1px 1px #DE6846,inset 0px 2px 5px #B23A24;
+   -moz-box-shadow: 0px 1px 1px #DE6846,inset 0px 2px 5px #B23A24;
+   -webkit-box-shadow: 0px 1px 1px #DE6846,inset 0px 2px 5px #B23A24;
+ }
+
+#main-navigation ul li a:hover,
+#main-navigation ul li.current-menu-item > a,
+#main-navigation ul li.current-menu-ancestor > a {
+    background:#F8F8F8;
+    border-bottom: 1pt solid #CB5234;
+    color: #CB5234;
+}
+
+
+#main-navigation ul li a:hover {
+     color: #CB5234;
+     background: #F8F8F8;
+     border-bottom: 1pt solid #CB5234;
+}
+
+#main-navigation ul ul a:hover,
+#main-navigation ul ul .hover > a,
+#main-navigation ul ul .current > a,
+#main-navigation ul ul .current > a:hover {
+     background-color: #CB5234;
+     color: #fff;
+     border: 0;
+}
+
+
+#main-navigation ul ul a:hover, #main-navigation ul ul .hover > a, #main-navigation ul ul .current-menu-item > a, #main-navigation ul ul .current-menu-item > a:hover {
+    background-color:#CB5234;
+}
+
+img.intro-img {
+	border-bottom: 1pt solid #D8D5CD;
+}
+
+.jcarousel-next, .jcarousel-prev {
+    background-color: #CB5234;
+}
+.jcarousel-prev {
+    background-color: #CB5234;
+}
+.jcarousel-next:hover, .jcarousel-next:focus, .jcarousel-next:active, .jcarousel-prev:hover, .jcarousel-prev:focus, .jcarousel-prev:active {
+    background-color: #CB5234;
+}
+.jcarousel-next-disabled, .jcarousel-next-disabled:hover, .jcarousel-next-disabled:focus, .jcarousel-next-disabled:active, .jcarousel-prev-disabled, .jcarousel-prev-disabled:hover, .jcarousel-prev-disabled:focus, .jcarousel-prev-disabled:active {
+    background-color: #D8D5CD;
+}
+ul#projects-carousel li .item-content:hover,
+ul#portfolio-items-one-fourth li .item-content:hover {
+    background-color: #CB5234;
+}
+.sidebarBox li:first-child {
+    border-top: 1px dotted #D8D5CD;
+}
+.sidebarBox li {
+    border-bottom: 1px dotted #D8D5CD;
+}
+
+.archive .hentry, .page-template-template-blog-php .hentry, .search .hentry {
+    border-bottom: 1px solid #D8D5CD;
+}
+.post-date {
+	background: #CB5234;
+}
+
+#pagination span, #pagination a {
+
+}
+#pagination .current {
+
+}
+
+
+#s {
+
+}
+
+#s:focus {
+
+}
+
+.filterable li.active a {
+	background-color: #CB5234;
+}
+
+
+.comment-text {
+
+}
+
+#commentform input[type="text"], 
+#commentform input[type="password"], 
+#commentform input[type="email"], 
+#commentform input.text, 
+#commentform input.title, 
+#commentform textarea, 
+#commentform select,
+#commentform textarea, 
+#contactForm input[type="text"],
+#contactForm input[type="password"],
+#contactForm input[type="email"],
+#contactForm textarea,
+#contactForm select {
+   border: 1px solid #DDDDDD;
+   box-shadow: inset 0px 2px 4px #F3F3F3;
+   -moz-box-shadow: inset 0px 2px 4px #F3F3F3;
+   -webkit-box-shadow: inset 0px 2px 4px #F3F3F3;
+   background: #FFFFFF;
+   color:#777777;
+  
+}
+#commentform input[type="text"]:focus, 
+#commentform input[type="password"]:focus, 
+#commentform input[type="email"]:focus, 
+#commentform input.text:focus, 
+#commentform input.title:focus, 
+#commentform textarea:focus, 
+#commentform select:focus,
+#contactForm input[type="text"]:focus,
+#contactForm input[type="password"]:focus,
+#contactForm  input[type="email"]:focus,
+#contactForm  textarea:focus {
+   border: 1px solid #BBBBBB;
+   box-shadow: 0px 0px 5px #CCCCCC,inset 0px 2px 4px #F3F3F3;
+   -moz-box-shadow: 0px 0px 5px #CCCCCC,inset 0px 2px 4px #F3F3F3;
+   -webkit-box-shadow: 0px 0px 5px #CCCCCC,inset 0px 2px 4px #F3F3F3;
+}
+
+
+}
+
+
+pre, code {
+
+}
+.hentry blockquote {
+
+}
+
+#tabscontainer {
+	clear: both;
+}
+
+
+.help {
+    
+}
+/* ---------------------------------------------------------------------- */
+/* Images
+/* ---------------------------------------------------------------------- */
+
+
+.flex-control-nav li a {
+	background-image: url("images/bg_control_nav.png");
+}
+
+.portfolio-item-hover-content a.zoom  {
+	background-image: url("images/zoom-plus.png");
+}
+
+.post-year {
+    background-image: url("images/post-meta-divider.png");
+}
+
+.readmore a:hover {
+    background-image: url("images/blog-permalink.png");
+}
+
+.widget_site5framework_contact_widget span.address {
+    background-image: url("images/icons/adress.png");
+}
+.widget_site5framework_contact_widget span.phone {
+    background-image: url("images/icons/phone-number.png");
+}
+.widget_site5framework_contact_widget span.email {
+    background-image: url("images/icons/mail-adress.png");
+}
+
+
+
+
+
+

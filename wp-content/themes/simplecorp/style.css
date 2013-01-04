@@ -1,0 +1,16 @@
+/******************************************************************
+Theme Name: SimpleCorp
+Theme URI: http://www.s5themes.com/theme/simplecorp/
+Description:  SimpleCorp - Check <a href="http://www.s5themes.com/documentation/simplecorp/">SimpleCorp Documentation</a> in case you need directions or get support from <a href="http://www.s5themes.com/forums/">Forum</a>.
+Author: Site5.com
+Author URI: http://gk.site5.com/t/568
+Version: 2.1.3
+
+License: GPL
+License URI: http://www.gnu.org/copyleft/gpl.html 
+******************************************************************/
+
+@import url("library/css/main-css.css");
+@import url("library/css/768.css");
+@import url("library/css/320.css");
+@import url("library/css/480.css");

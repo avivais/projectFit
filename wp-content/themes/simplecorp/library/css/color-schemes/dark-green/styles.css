@@ -1,0 +1,270 @@
+/* ---------------------------------------------------------------------- */
+/* DARK GREEN
+/* 
+/* 
+/* Accent color: #34B489 ;
+/* Borders color, Submenu background: #615951 ;
+/* Page background: #333333;
+/* Content Boxes background: #3F3F3F;
+/* ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+/* COLORS 
+/* ---------------------------------------------------------------------- */
+body {
+  color:#898989;
+}
+#page {
+	background-color:#333333; 
+}
+
+a:hover, a > *:hover,
+.categories a:hover,
+#footer .widget-container li a:hover   {
+    color: #34B489;
+} 
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #FFFFFF;
+}
+
+
+
+#logo {
+	color:#fff;
+}
+
+#pre-header,
+.flex-direction-nav li a:hover {
+	background-color:#34B489;
+}
+
+.colored,
+.flex-caption h3, 
+.intro-page h2 strong, 
+#footer h4,
+#copyrights a  {
+	color:#34B489;
+}
+
+#pre-header,
+#slider_container {
+	border-bottom: 1pt solid #615951;
+}
+.intro-page,
+.horizontal-line,
+.divider { 
+	border-top: 1pt solid #615951;
+}
+
+
+ul#social-links li {
+   background: #2ca67d;
+   background: -moz-linear-gradient(top, #2ca67d 0%, #1c8864 100%);
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ca67d), color-stop(100%,#1c8864));
+   background: -webkit-linear-gradient(top, #2ca67d 0%,#1c8864 100%);
+   background: -o-linear-gradient(top, #2ca67d 0%,#1c8864 100%);
+   background: -ms-linear-gradient(top, #2ca67d 0%,#1c8864 100%);
+   background: linear-gradient(top, #2ca67d 0%,#1c8864 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ca67d', endColorstr='#1c8864',GradientType=0 );
+   box-shadow: 0px 1px 1px #4acea1,inset 0px 2px 5px #1c8864;
+   -moz-box-shadow: 0px 1px 1px #4acea1,inset 0px 2px 5px #1c8864;
+   -webkit-box-shadow: 0px 1px 1px #4acea1,inset 0px 2px 5px #1c8864;
+ }
+
+#main-navigation ul li a:hover,
+#main-navigation ul li.current-menu-item > a,
+#main-navigation ul li.current-menu-ancestor > a {
+    background:#444444;
+    border-bottom: 1pt solid #34b489;
+    color: #34b489;
+}
+
+
+#main-navigation ul li a:hover {
+     color: #34b489;
+     background: #444444;
+     border-bottom: 1pt solid #34b489;
+}
+
+#main-navigation ul ul a:hover,
+#main-navigation ul ul .hover > a,
+#main-navigation ul ul .current > a,
+#main-navigation ul ul .current > a:hover {
+     background-color: #34b489;
+     color: #fff;
+     border: 0;
+}
+
+
+#main-navigation ul ul a:hover, #main-navigation ul ul .hover > a, #main-navigation ul ul .current-menu-item > a, #main-navigation ul ul .current-menu-item > a:hover {
+    background-color:#34B489;
+}
+
+img.intro-img {
+	border-bottom: 1pt solid #615951;
+}
+
+.jcarousel-next, .jcarousel-prev {
+    background-color: #34B489;
+}
+.jcarousel-prev {
+    background-color: #34B489;
+}
+.jcarousel-next:hover, .jcarousel-next:focus, .jcarousel-next:active, .jcarousel-prev:hover, .jcarousel-prev:focus, .jcarousel-prev:active {
+    background-color: #34B489;
+}
+.jcarousel-next-disabled, .jcarousel-next-disabled:hover, .jcarousel-next-disabled:focus, .jcarousel-next-disabled:active, .jcarousel-prev-disabled, .jcarousel-prev-disabled:hover, .jcarousel-prev-disabled:focus, .jcarousel-prev-disabled:active {
+    background-color: #615951;
+}
+ul#projects-carousel li .item-content:hover,
+ul#portfolio-items-one-fourth li .item-content:hover {
+    background-color: #34b489;
+}
+.sidebarBox li:first-child {
+    border-top: 1px dotted #615951;
+}
+.sidebarBox li {
+    border-bottom: 1px dotted #615951;
+}
+
+.archive .hentry, .page-template-template-blog-php .hentry, .search .hentry {
+    border-bottom: 1px solid #615951;
+}
+.post-date {
+	background: #34B489;
+	-moz-box-shadow: 0 0px 3px #111;
+	-webkit-box-shadow: 0 0px 3px #111;
+	box-shadow: 0 0px 3px #111;
+}
+
+#pagination span, #pagination a {
+    border: 1px solid #615951;
+    box-shadow: none;
+    color: #898989;
+}
+#pagination .current {
+    background: none;
+    border: 1px solid #FFF;
+    color:#fff;
+}
+
+
+#s {
+	background-color: #3F3F3F;
+    background-image: url("images/search-bg.png");
+    box-shadow: 0 0 3px #444444;
+    color: #F8F8F8;
+}
+#s:focus {
+    box-shadow: 0 0 3px #111111;
+}
+
+.filterable li.active a {
+	background-color: #34B489;
+}
+
+
+.comment-text {
+    background-color:#3F3F3F;
+    border-color:#615951 ;
+
+}
+
+#commentform input[type="text"], 
+#commentform input[type="password"], 
+#commentform input[type="email"], 
+#commentform input.text, 
+#commentform input.title, 
+#commentform textarea, 
+#commentform select,
+#commentform textarea, 
+#contactForm input[type="text"],
+#contactForm input[type="password"],
+#contactForm input[type="email"],
+#contactForm textarea,
+#contactForm select {
+   border: 1px solid #2B2A2A;
+   box-shadow: inset 0px 2px 4px #2F2F2F;
+   -moz-box-shadow: inset 0px 2px 4px #2F2F2F;
+   -webkit-box-shadow: inset 0px 2px 4px #2F2F2F;
+   background: #444444;
+   color:#ffffff;
+  
+}
+#commentform input[type="text"]:focus, 
+#commentform input[type="password"]:focus, 
+#commentform input[type="email"]:focus, 
+#commentform input.text:focus, 
+#commentform input.title:focus, 
+#commentform textarea:focus, 
+#commentform select:focus,
+#contactForm input[type="text"]:focus,
+#contactForm input[type="password"]:focus,
+#contactForm  input[type="email"]:focus,
+#contactForm  textarea:focus {
+   border: 1px solid #615951;
+   box-shadow: 0px 0px 5px #4F4F4F,inset 0px 2px 4px #444444;
+   -moz-box-shadow: 0px 0px 5px #4F4F4F,inset 0px 2px 4px #444444;
+   -webkit-box-shadow: 0px 0px 5px #4F4F4F,inset 0px 2px 4px #444444;
+}
+
+.author {
+    background-color: #3F3F3F;
+    border-color: #615951;
+}
+
+
+pre, code {
+	background-color:#3F3F3F;
+	border-color:#615951;
+}
+.hentry blockquote {
+	background-color:#3F3F3F;
+	border:none;
+}
+
+#tabscontainer {
+	clear: both;
+}
+
+
+.help {
+    background-color:#3F3F3F;
+}
+/* ---------------------------------------------------------------------- */
+/* Images
+/* ---------------------------------------------------------------------- */
+
+
+.flex-control-nav li a {
+	background-image: url("images/bg_control_nav.png");
+}
+
+.portfolio-item-hover-content a.zoom  {
+	background-image: url("images/zoom-plus.png");
+}
+
+.post-year {
+    background-image: url("images/post-meta-divider.png");
+}
+
+.readmore a:hover {
+    background-image: url("images/blog-permalink.png");
+}
+
+.widget_site5framework_contact_widget span.address {
+    background-image: url("images/icons/adress.png");
+}
+.widget_site5framework_contact_widget span.phone {
+    background-image: url("images/icons/phone-number.png");
+}
+.widget_site5framework_contact_widget span.email {
+    background-image: url("images/icons/mail-adress.png");
+}
+
+
+
+
+
+
