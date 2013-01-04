@@ -89,3 +89,27 @@
     background-color: #c3ff88;
     border-color: #8dff1c !important;
 }
+
+div.tml-action-links {
+	text-align: center;
+}
+
+div.tml-action-links div {
+	margin-bottom: 20px;
+}
+
+div#page .container h1 {
+	text-align: center;
+}
+
+div#theme-my-login {
+	-moz-box-shadow: 0 0 40px #FFF;
+	-webkit-box-shadow: 0 0 40px #FFF;
+	box-shadow: 0 0 40px #FFF;
+	border: 1px solid #888;
+	padding: 20px;
+	width: 80%;
+	margin: auto;
+	background-color: #DDD;
+	color: #888;
+}

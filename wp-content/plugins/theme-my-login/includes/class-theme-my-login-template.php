@@ -294,11 +294,11 @@ class Theme_My_Login_Template {
 	 */
 	function the_action_links( $args = '' ) {
 		if ( $action_links = $this->get_action_links( $args ) ) {
-			echo '<ul class="tml-action-links">' . "\n";
+			echo '<div class="tml-action-links">' . "\n";
 			foreach ( (array) $action_links as $link ) {
-				echo '<li><a href="' . esc_url( $link['url'] ) . '" rel="nofollow">' . esc_html( $link['title'] ) . '</a></li>' . "\n";
+				echo '<div><a class="btn btn-danger" href="' . esc_url( $link['url'] ) . '" rel="nofollow">' . esc_html( $link['title'] ) . '</a></div>' . "\n";
 			}
-			echo '</ul>' . "\n";
+			echo '</div>' . "\n";
 		}
 	}
 
