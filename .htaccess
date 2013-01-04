@@ -8,6 +8,5 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /projectFit/index.php [L]
 </IfModule>
-AddType text/css .css
 
 # END WordPress
