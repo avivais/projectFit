@@ -2337,3 +2337,12 @@ ul.buttons-huge li {
 .help p {
    margin-bottom: 0;
 }
+footer#footer div.widget-container {
+	margin-right: 60px;
+}
+footer#footer div.widget_agmmapswidget {
+	width: 280px;
+}
+footer#footer div.widget_text {
+	width: 320px;
+}

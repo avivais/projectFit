@@ -1,0 +1,139 @@
+Plugin Name: Google Maps
+Author: Ve Bailovity (Incsub)
+
+Change Log:
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+2.6.3 - 2012-12-08
+----------------------------------------------------------------------
+- Fix for Google Maps library loading race condition.
+
+2.6.2 - 2012-11-13
+----------------------------------------------------------------------
+- Editor paging for maps.
+- Added public transit transportation mode.
+- Added `current_post` query.
+- Added advanced mode zoom settings.
+- Deprecated external dialog styles.
+
+2.6.1 - 2012-10-19
+----------------------------------------------------------------------
+- Fix for legacy root URL support.
+
+2.6 - 2012-10-18
+----------------------------------------------------------------------
+- Added Google Places support add-on.
+- Added "Where am I?" add-on.
+- Added Nearby Facebook Friends add-on.
+- Added geotagging add-ons for WordPress and BuddyPress.
+- Added auto-generated maps marker hiding add-on.
+- Added discard old map option for auto-generated maps.
+- Exposed more hooks and events for interaction.
+
+2.5.6 - 2012-08-16
+----------------------------------------------------------------------
+- Applying the new limit define as default.
+- Exposing the limit for filtering and as shortocde parameter.
+
+2.5.5 - 2012-07-14
+----------------------------------------------------------------------
+- Silencing some notices.
+- Fix for hidden maps offset on show/resize.
+
+2.5.4 - 2012-07-03
+----------------------------------------------------------------------
+- Fix for proper display of initially hidden maps.
+- Fix for marker snapping on editing the existing maps
+
+2.5.3 - 2012-04-20
+----------------------------------------------------------------------
+- Added snapping option.
+
+2.5.2 - 2012-03-12
+----------------------------------------------------------------------
+- Swapped the order of direction waypoint entries.
+- Typo fix.
+
+2.5.1 - 2012-02-27
+----------------------------------------------------------------------
+- Added localization add-on.
+
+2.5 - 2012-01-28
+----------------------------------------------------------------------
+- Added member profile bindings rebuilding in Fix and Repair add-on.
+- Added map centering add-on.
+- Added Marker cluster add-on.
+- Added experimental featured image add-on for overlay maps.
+
+2.4.1 - 2011-12-15
+----------------------------------------------------------------------
+- Fix for https links.
+
+2.4 - 2011-12-09
+----------------------------------------------------------------------
+- Added BuddyPress profile maps add-on.
+- Added template tag for showing BuddyPress members on one map.
+- Added shortcode for showing BuddyPress members on one map.
+- Fix for img styles bleedthrough issue.
+
+2.3.1 - 2011-11-26
+----------------------------------------------------------------------
+- Fix for media buttons compatibility with WordPress 3.3.
+
+2.3 - 2011-11-18
+----------------------------------------------------------------------
+- Fix for media buttons compatibility with WordPress 3.3.
+- Autocreated maps re-creation on watched field change - thanks, Moha!
+- Added KML support through Add-ons.
+
+2.2 - 2011-10-20
+----------------------------------------------------------------------
+- Added plugin infrastructure.
+- Added "Fix and Repair" plugin
+- Shortcode queries "all" and "random" work with "network" attribute.
+- Fix for map editor and popup bubble sizes on low resolution screens.
+
+2.1.1 - 2011-09-28
+----------------------------------------------------------------------
+- Fix for merged maps widget options bleed through for singular maps.
+
+2.1 - 2011-08-20
+----------------------------------------------------------------------
+- Added new "Zoom" attribute for merged maps in widget.
+- Allowed for Map Types in shortcode.
+- Added measurement units support in plugin defaults.
+
+2.0.4 - 2011-08-02
+----------------------------------------------------------------------
+- Fixed notices.
+
+2.0.4 - 2011-07-31
+----------------------------------------------------------------------
+- Fixed fetching permalinks for network post mashups.
+
+2.0.3 - 2011-07-30
+----------------------------------------------------------------------
+- Fixed network marker merging.
+- Fixed fetching newly merged network post titles.
+- Added shortcode zoom attribute.
+
+2.0.2 - 2011-07-14
+----------------------------------------------------------------------
+- Fixed delete link in Editor.
+
+2.0.1 - 2011-07-09
+----------------------------------------------------------------------
+- Fix for errors with non-numeric zoom values.
+
+2.0 - 2011-07-07
+----------------------------------------------------------------------
+- Map alignment support
+- Maps overlays (showing multiple maps as one)
+- Integration with Post Indexer plugin
+- Option for showing associated post titles
+- Automatic map creation from custom fields
+- Panoramio images overlay
+- Saving maps in Street View
+
+82331-1357391365
