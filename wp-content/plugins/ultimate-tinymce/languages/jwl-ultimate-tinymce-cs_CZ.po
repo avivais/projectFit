@@ -1,0 +1,843 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Tinymce v2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-25 04:45-0500\n"
+"PO-Revision-Date: 2012-05-23 21:29+0100\n"
+"Last-Translator: CHS <info@chcistranky.eu>\n"
+"Language-Team: Pavel Bilek <info@chcistranky.eu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; \\ plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+
+# @ default
+#: admin_functions.php:12
+#, php-format
+msgid "<span style=\"color:green;\">Thank you for choosing Ultimate Tinymce.</span><br />Please visit the <a href=\"admin.php?page=ultimate-tinymce\">Ultimate Tinymce Settings Page</a> to begin customization of your editor.<br />If you are upgrading from a previous version, you will need to <a href=\"admin.php?page=ultimate-tinymce\">reconfigure</a> your button row settings.<span style=\"float:right;\"><a href=\"admin.php?page=ultimate-tinymce%1$s\">Hide Notice</a></span>"
+msgstr "<span style=\"color:green;\">Děkujeme, že jste si vybrali plugin Ultimate Tinymce.</span><br />Domovská stránka <a href=\"admin.php?page=ultimate-tinymce\">Ultimate Tinymce</a> - nastavení funkcí a vzhledu.<br />Pokud jste aktualizovali plugin z předešlé verze, budete muset <a href=\"admin.php?page=ultimate-tinymce\">překonfigurovat</a> nastavení Vašich tlačítek.<span style=\"float:right;\"><a href=\"%1$s\">Skrýt upozornění</a></span>"
+
+# @ default
+#: admin_functions.php:85
+msgid "Number of posts to show:"
+msgstr "Počet příspěvků k zobrazení:"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:138
+msgid "Font Select Button"
+msgstr "Tlačítko - Výběr písma"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:138
+msgid "Font Size Button"
+msgstr "Tlačítko - Velikost písma"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:138
+msgid "Cut Button"
+msgstr "Tlačítko - Vyjmout"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:138
+msgid "Copy Button"
+msgstr "Tlačítko - Kopírovat"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:138
+msgid "Paste Button"
+msgstr "Tlačítko - Vložit"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:138
+msgid "Background Color Picker Button"
+msgstr "Tlačítko - Výběr barvy pozadí"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:138
+msgid "Foreground Color Picker Button"
+msgstr "Tlačítko - Výběr barvy popředí"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:138
+msgid "Horizontal Rule Button"
+msgstr "Tlačítko - Vodorovný oddělovač"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:138
+msgid "Visual Aid Button"
+msgstr "Tlačítko - Vizuální pomoc"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:138
+msgid "Anchor Button"
+msgstr "Tlačítko - Kotva"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:138
+msgid "Subscript Button"
+msgstr "Tlačítko - Horní index"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:138
+msgid "Superscript Button"
+msgstr "Tlačítko - Dolní index"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:138
+msgid "Search Button"
+msgstr "Tlačítko - Najít"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:138
+msgid "Replace Button"
+msgstr "Tlačítko - Nahradit"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:138
+msgid "Insert Date/Time Button"
+msgstr "Tlačítko - Vložit datum / čas"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:141
+msgid "Style Select Button"
+msgstr "Tlačítko - Výběr stylu"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:141
+msgid "Table Controls Dropdown Button"
+msgstr "Tlačítko - Tabulka"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:141
+msgid "Emotions Button"
+msgstr "Tlačítko - Smajlíci"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:141
+msgid "Advanced Image Button"
+msgstr "Tlačítko - Obrázek"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:141
+msgid "Preview Button"
+msgstr "Tlačítko - Náhled"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:141
+msgid "Citations Button"
+msgstr "Tlačítko - Citace"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:141
+msgid "Abbreviations Button"
+msgstr "Tlačítko - Zkratka"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:141
+msgid "Acronym Button"
+msgstr "Tlačítko - Akronym"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:141
+msgid "Delete Button"
+msgstr "Tlačítko - Smazat"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:141
+msgid "Insert Button"
+msgstr "Tlačítko - Vložit"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:141
+msgid "Attributes Button"
+msgstr "Tlačítko - Atribut"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:141
+msgid "Styleprops Box"
+msgstr "Tlačítko - Vlastnosti stylu"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:141
+msgid "HTML Code Button"
+msgstr "Tlačítko - HTML editor"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:141
+msgid "HTML Code Magic Button"
+msgstr "Tlačítko - HTML pokročilý editor"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:141
+msgid "Insert Media Button"
+msgstr "Tlačítko - Vložit mediální soubor"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:141
+msgid "Insert YouTube Video Button"
+msgstr "Tlačítko - Vložit YouTube video"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:141
+msgid "Image Map Editor Button"
+msgstr "Tlačítko - Editor obrázkové mapy"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:141
+msgid "Toggle Visual Characters Button"
+msgstr "Tlačítko - Přepnutí vizuálních znaků"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:141
+msgid "Print Button"
+msgstr "Tlačítko - Tisk"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:141
+msgid "Shortcodes Select Button"
+msgstr "Tlačítko - Výběr Shortcodes"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:144
+msgid "Change the color of the Editor."
+msgstr "Změnit barvu editoru."
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:144
+msgid "Enable NextPage (PageBreak) Button."
+msgstr "Povolit tlačítko Další stránka"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:144
+msgid "Add ID Column to page/post admin list."
+msgstr "Vložit ID sloupce do seznamu stránek/příspěvků."
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:144
+msgid "Allow shortcode usage in widget text areas."
+msgstr "Povolit Shortcode v postraních textových panelech."
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:144
+msgid "Use PHP Text Widget"
+msgstr "Povolit PHP v postraních textových panelech"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:144
+msgid "Enable Line Break Shortcode"
+msgstr "Povolit Shortcode pro zalomení řádku"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:144
+msgid "Enable Columns Shortcodes"
+msgstr "Povolit Shortcode pro sloupce v obsahu"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:144
+msgid "Enable Advanced Insert/Edit Link Button"
+msgstr "Povolit vylepšené tlačítko pro vložení a úpravu odkazu"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:144
+msgid "Enable \"Div Clear\" Buttons"
+msgstr "Povolit tlačítko \"Div Clear\""
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:144
+msgid "Remove <b>p</b> and <b>br</b> tags"
+msgstr "Odstranit tagy <b>p</b> and <b>br</b> "
+
+#: admin_functions.php:144
+msgid "Save scrollbar position in editor"
+msgstr "Uložit pozici posuvníku v editoru"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:144
+msgid "Add a Signoff Shortcode"
+msgstr "Vložit Shortcode Signoff "
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:147
+msgid "Enable dashboard widget"
+msgstr "Povolit panel na nástěnce"
+
+# @ jwl-ultimate-tinymce
+#: admin_functions.php:147
+msgid "Enable admin bar link"
+msgstr "Povolit odkaz na admin lištu"
+
+#: admin_functions.php:150
+msgid "Editor"
+msgstr "Editor"
+
+# @ jwl-ultimate-tinymce
+#: main.php:59
+msgid "Settings"
+msgstr "Nastavení"
+
+# @ jwl-ultimate-tinymce
+#: main.php:60
+msgid "Support Forum"
+msgstr "Forum podpory"
+
+# @ jwl-ultimate-tinymce
+#: main.php:109
+msgid "Ultimate TinyMCE"
+msgstr "Ultimate TinyMCE"
+
+# @ jwl-ultimate-tinymce
+#: main.php:153
+msgid "Do you enjoy Ultimate Tinymce?"
+msgstr "Líbí se Vám Ultimate Tinymce?"
+
+#: main.php:154
+msgid "I've noticed you've been using Ultimate Tinymce for at least 30 days. This plugin takes me countless hours of work to develop and maintain. If you continue to use it, please consider donating a token of your appreciation!"
+msgstr "Všiml jsem si, že jste používal(a) Ultimate TinyMCE po dobu nejméně 30 dnů. Udržovat a vyvíjet tento plugin mi trvá bezpočet hodin práce. Máte-li i nadále zájem ho používat, zvažte prosím příspěvek podle svého uvážení!"
+
+#: main.php:163
+msgid "Alternatively, tweet about it so others can find out about Ultimate Tinymce."
+msgstr "Také můžete tweetnout o Ultimate TinyMCE, aby se i ostatní mohli dozvědět o našem pluginu."
+
+#: main.php:168
+msgid "(do not show me this pop-up again)"
+msgstr "(nezobrazovat tyto upozornění)"
+
+# @ jwl-ultimate-tinymce
+#: main.php:195
+msgid "Help Documentation"
+msgstr "Dokumentace - nápověda"
+
+# @ jwl-ultimate-tinymce
+#: main.php:195
+msgid "<ul><li class=\"help_tab_list_image\">The best resource for expedited help is my <a target=\"_blank\" href=\"http://www.forum.joshlobe.com/\">Support Forum</a>.</li><li class=\"help_tab_list_image\">You can also visit the <a target=\"_blank\" href=\"http://www.joshlobe.com/2011/10/ultimate-tinymce/\">Plugin Page</a> to read user comments.</ul>"
+msgstr "<ul><li class=\"help_tab_list_image\">Nejlepší zdroj pro rychlou pomoc je moje<a target=\"_blank\" href=\"http://www.forum.joshlobe.com/\">Fórum podpory</a>.</li><li class=\"help_tab_list_image\">Také můžete navštívit <a target=\"_blank\" href=\"http://www.joshlobe.com/2011/10/ultimate-tinymce/\">stránku pluginu</a> a přečíst si komentáře uživatelů.</ul>"
+
+# @ jwl-ultimate-tinymce
+#: main.php:196
+msgid "Settings Page Tips"
+msgstr "Tipy k nastavení"
+
+# @ jwl-ultimate-tinymce
+#: main.php:196
+msgid "Here are some important items to remember regarding the new settings page.<br /><ul><li class=\"help_tab_list_image\">Each option has a dedicated help icon.  Clicking the help icon (blue question mark) for a specific option will open a new window with a unique help file.</li><li class=\"help_tab_list_image\">Boxes can be opened/closed and sorted by clicking and dragging the box headers.  Boxes can also be enabled/disabled via the \"Screen Options\" tab in the upper-right corner.</li><li class=\"help_tab_list_image\">Set your screen layout to two columns (via Screen Options) for best results.</li><li class=\"help_tab_list_image\">The \"Row Selection\" button allows you to choose which row of the visual editor the button will appear.</ul>"
+msgstr "Zde jsou některé důležité informace, pokud jde o novou stránku s nastavením.<br /><ul><li class=\"help_tab_list_image\">Každá volba má vlastní ikonu nápovědy. Pro nápovědu klikněte na ikonu (modrý otazník) a u konkrétní volby se otevře nové okno s nápovědou.</li><li class=\"help_tab_list_image\">Boxy lze otevřít / zavřít a seřadit je kliknutím a tažením za název pole. Boxy lze otevřít / zavřít také ze záložky \"Nastavení zobrazených informací\" v pravém horním rohu.</li><li class=\"help_tab_list_image\">Nastavte rozložení vzhledu do dvou sloupců (přes Nastavení zobrazených informací) pro lepší výsledky.</li><li class=\"help_tab_list_image\">Tlačítko \"Výbeř řádku\" umožňuje vybrat, ve které řadě vizuálního editoru se tlačítko objeví.</ul>"
+
+# @ jwl-ultimate-tinymce
+#: main.php:203
+msgid "Ultimate Tinymce Help<br /><br /><a target=\"_blank\" href=\"http://www.forum.joshlobe.com/\">Support Forum</a>"
+msgstr "Ultimate Tinymce nápověda<br /><br /><a target=\"_blank\" href=\"http://www.forum.joshlobe.com/\">Fórum podpory</a>"
+
+# @ default
+#: main.php:224
+msgid "Additional Resources"
+msgstr "Další zdroje"
+
+# @ default
+#: main.php:225
+msgid "TinyMCE + Firefox = Best Experience"
+msgstr "TinyMCE + Firefox = Nejlepší zkušenost"
+
+# @ default
+#: main.php:226
+msgid "Please VOTE and click WORKS."
+msgstr "Prosím hlasujte kliknutím na WORKS."
+
+# @ default
+#: main.php:227
+msgid "Bloggers!!"
+msgstr "Bloggeři!!"
+
+# @ default
+#: main.php:228
+msgid "Feedback"
+msgstr "Zpětná vazba"
+
+# @ default
+#: main.php:229
+msgid "Plugin Poll"
+msgstr "Plugin anketa"
+
+# @ default
+#: main.php:231
+msgid "Buttons Group 1"
+msgstr "Skupina tlačítek 1"
+
+# @ default
+#: main.php:232
+msgid "Buttons Group 2"
+msgstr "Skupina tlačítek 2"
+
+# @ default
+#: main.php:233
+msgid "Miscellaneous Features"
+msgstr "Různé funkce"
+
+#: main.php:234
+msgid "User Roles"
+msgstr "Uživatelské role"
+
+# @ default
+#: main.php:235
+msgid "Admin Options"
+msgstr "Administrátorská nastavení"
+
+# @ jwl-ultimate-tinymce
+#: main.php:250
+msgid "Ultimate Tinymce "
+msgstr "Ultimate Tinymce "
+
+# @ jwl-ultimate-tinymce
+#: main.php:250
+msgid "Admin Settings Page"
+msgstr "Stránka pro administrátorská nastavení"
+
+# @ jwl-ultimate-tinymce
+#: main.php:262
+msgid "Plugin Addons"
+msgstr "Další rozšíření pluginu"
+
+# @ jwl-ultimate-tinymce
+#: main.php:263
+msgid "Donations"
+msgstr "Příspěvky"
+
+# @ jwl-ultimate-tinymce
+#: main.php:264
+msgid "Spread the Word"
+msgstr "Propagujte nás"
+
+# @ jwl-ultimate-tinymce
+#: main.php:265
+msgid "Admin Tips"
+msgstr "Admin tipy"
+
+# @ jwl-ultimate-tinymce
+#: main.php:266
+msgid "Default Settings"
+msgstr "Výchozí nastavení"
+
+# @ jwl-ultimate-tinymce
+#: main.php:267
+msgid "Uninstall Plugin"
+msgstr "Odinstalovat plugin"
+
+# @ jwl-ultimate-tinymce
+#: main.php:271
+msgid "Plugin Addons:"
+msgstr "Doplňky pro plugin:"
+
+# @ jwl-ultimate-tinymce
+#: main.php:272
+msgid "These addons provide additional features for Ultimate TinyMCE.  Click the title to view the download page."
+msgstr "Tyto doplňky poskytují další funkce pro Ultimate TinyMCE. Klikněte na název pro zobrazení stránky."
+
+# @ jwl-ultimate-tinymce
+#: main.php:275
+msgid "<a target=\"_blank\" title=\"Easily Integrate Google Webfonts into your Website.\" href=\"http://www.plugins.joshlobe.com/ultimate-tinymce-google-webfonts/\"><span style=\"font-family:'Unlock', cursive;\">Google Webfonts</span></a>"
+msgstr "<a target=\"_blank\" title=\"Jednoduchá integrace Google Webfonts do Vašeho webu.\" href=\"http://www.plugins.joshlobe.com/ultimate-tinymce-google-webfonts/\"><span style=\"font-family:'Unlock', cursive;\">Google Webfonts</span></a>"
+
+# @ jwl-ultimate-tinymce
+#: main.php:275
+#: main.php:287
+#: main.php:300
+#: main.php:314
+#: main.php:330
+msgid "(Toggle)"
+msgstr "(rozbalit)"
+
+# @ jwl-ultimate-tinymce
+#: main.php:278
+#: main.php:290
+#: main.php:303
+#: main.php:317
+#: main.php:333
+msgid "<span style=\"color:green;\">Activated</span>"
+msgstr "<span style=\"color:green;\">Aktivní</span>"
+
+# @ jwl-ultimate-tinymce
+#: main.php:281
+#: main.php:293
+#: main.php:306
+#: main.php:320
+#: main.php:336
+msgid "<span style=\"color:red;\">Not Activated</span>"
+msgstr "<span style=\"color:red;\">Neaktivní</span>"
+
+# @ jwl-ultimate-tinymce
+#: main.php:282
+msgid "Choose any combination of Google Webfonts, and add them to the font dropdown selector.<br /><br />Fonts are rendered on both the editor screen, and to all front-end viewers."
+msgstr "Vyberte si libovolnou kombinaci Google Webfonts, a přidejte je do rozbalovací nabídky písma. <br /> <br /> Fonty jsou k dispozici na obrazovce editoru a ve všech front-end prohlížečích."
+
+# @ jwl-ultimate-tinymce
+#: main.php:287
+msgid "<a target=\"_blank\" title=\"Easily add custom styles to your content.\" href=\"http://www.plugins.joshlobe.com/ultimate-tinymce-custom-styles/\"><span style=\"font-family:'Unlock', cursive;\">Custom Styles</span></a>"
+msgstr "<a target=\"_blank\" title=\"Jednoduše přidejte vlastní styly do svého obsahu.\" href=\"http://www.plugins.joshlobe.com/ultimate-tinymce-custom-styles/\"><span style=\"font-family:'Unlock', cursive;\">Uživatelské styly</span></a>"
+
+# @ jwl-ultimate-tinymce
+#: main.php:294
+msgid "Define unlimited custom styles, and add them to the styleselect dropdown list.<br /><br />Styles are rendered in both the editor screen and the front end of the website."
+msgstr "Definujte vlastní styly a přidejte je do rozevíracího seznamu stylů.<br /><br />Styly jsou k dispozici na obrazovce editoru a ve všech front-end prohlížečích."
+
+# @ jwl-ultimate-tinymce
+#: main.php:300
+msgid "<a target=\"_blank\" title=\"Add a list of over 80 predefined styles to your editor.\" href=\"http://www.plugins.joshlobe.com/predefined-custom-styles/\"><span style=\"font-family:'Unlock', cursive;\">Pre-Defined Styles</span></a>"
+msgstr "<a target=\"_blank\" title=\"Přidat seznam více než 80 předefinovaných stylů.\" href=\"http://www.plugins.joshlobe.com/predefined-custom-styles/\"><span style=\"font-family:'Unlock', cursive;\">Předdefinované styly</span></a>"
+
+# @ jwl-ultimate-tinymce
+#: main.php:307
+msgid "A collection of my custom styles.  No need to create your own.<br /><br />Install this plugin and have instant access to over 80 custom styles (and growing)."
+msgstr "Sbírka mých uživatelských stylů.  Nemusíte vytvářet své vlastní.<br /><br />Instalujte tento plugin a získejte přístup k více než 80 uživatelským stylům (a více)."
+
+# @ jwl-ultimate-tinymce
+#: main.php:314
+msgid "<a target=\"_blank\" title=\"Apply six unique color settings to your admin panel.\" href=\"http://www.plugins.joshlobe.com/wp-admin-colors/\"><span style=\"font-family:'Unlock', cursive;\">WP Admin Colors</span></a>"
+msgstr "<a target=\"_blank\" title=\"Použít šest jedinečných nastavení barev pro Váš WP admin panel.\" href=\"http://www.plugins.joshlobe.com/wp-admin-colors/\"><span style=\"font-family:'Unlock', cursive;\">Barvy pro Váš WP Admin panel</span></a>"
+
+# @ jwl-ultimate-tinymce
+#: main.php:321
+msgid "Here is a compliment to the color selection for the tinymce editor. This addon will provide a choice of six unique stylesheets to apply to the entire admin panel dashboard."
+msgstr "Doplňek k výběru barvy pro TinyMCE editor. Tento doplněk nabídne výběr ze šesti jedinečných stylů, která se použijí na celý admin panel - nástěnku."
+
+# @ jwl-ultimate-tinymce
+#: main.php:330
+msgid "<a target=\"_blank\" title=\"Take powerful control over the visual tinymce editor.\" href=\"http://www.plugins.joshlobe.com/ultimate-tinymce-advanced-configuration/\"><span style=\"font-family:'Unlock', cursive;\">Advanced Configuration</span></a>"
+msgstr "<a target=\"_blank\" title=\"Využitjte kontrolu nad vizuálním editorem TinyMCE.\" href=\"http://www.plugins.joshlobe.com/ultimate-tinymce-advanced-configuration/\"><span style=\"font-family:'Unlock', cursive;\">Pokročilá nastavení</span></a>"
+
+# @ jwl-ultimate-tinymce
+#: main.php:337
+msgid "Take advanced control over your visual tinymce editor.  Control settings such as button placement, font sizes, date and time formats, and more."
+msgstr "Využijte možnost pokročilé kontroly nad vizuálním editorem TinyMCE. Nastavte například rozmístění ovládacích prvků, velikost písma, formát data, času a mnoho dalšího."
+
+# @ jwl-ultimate-tinymce
+#: main.php:349
+msgid "Donations:"
+msgstr "Příspěvky:"
+
+# @ jwl-ultimate-tinymce
+#: main.php:351
+msgid "Support the Developer"
+msgstr "Podpořte vývojáře"
+
+# @ jwl-ultimate-tinymce
+#: main.php:352
+msgid "Developing this awesome plugin took a lot of effort and time; months and months of continuous voluntary unpaid work."
+msgstr "Vývoj tohoto úžasného pluginu mě stál hodně úsilí a času, měsíce a měsíce nepřetržité, dobrovolné a neplacené práce."
+
+# @ jwl-ultimate-tinymce
+#: main.php:361
+msgid "If you like this plugin or if you are using it for commercial websites, please consider a donation to the author to help support future updates and development."
+msgstr "Pokud se Vám tento plugin líbí nebo pokud ho používáte pro komerční webové stránky, zvažte prosím dar autorovi. Přispějete tím k podpoře budoucích aktualizací a dalšímu rozvoji."
+
+# @ jwl-ultimate-tinymce
+#: main.php:365
+msgid "<span class=\"content_wrapper_title\">Main uses of Donations</span><ul class=\"help_tab_list_image\"><li>Web Hosting Fees</li><li>Cable Internet Fees</li><li>Time/Value Reimbursement</li><li>Motivation for Continuous Improvements</li><li>Sunday Father-Daughter Day</li></ul>"
+msgstr "<span class=\"content_wrapper_title\">Hlavní využití darů</span><ul class=\"help_tab_list_image\"><li>Poplatky za webhosting</li><li>Poplatky za kabelové internetové připojení</li><li>Zhodnocení času stráveného při vývoji pluginu</li><li>Motivace k dalšímu nepřetržitému zlepšování</li><li>Nedělní den otců/dcer</li></ul>"
+
+# @ jwl-ultimate-tinymce
+#: main.php:369
+msgid "Donate Securely via Paypal"
+msgstr "Přispějte bezpečně přes PayPal"
+
+# @ jwl-ultimate-tinymce
+#: main.php:384
+msgid "Spread the Word:"
+msgstr "Propagujte nás:"
+
+# @ jwl-ultimate-tinymce
+#: main.php:387
+msgid "Blog about this Plugin"
+msgstr "Blog o tomto pluginu"
+
+# @ jwl-ultimate-tinymce
+#: main.php:393
+msgid "<ul class=\"help_tab_list_image\"><li>Do you like this plugin, and use it regularly on your site?</li><li>Why not write a brief article recommending it to your readers and other wordpress blogger buddies?</li><li>Include a link to the plugin download page to make it easy for your readers to access.</li></ul>"
+msgstr "<ul class=\"help_tab_list_image\"><li>Líbí se Vám tento plugin a běžně ho používáte na svých stránkách?</li><li>Napište krátký článek a doporučte ho svým čtenářům a ostatním Wordpress uživatelům</li><li>Usnadněte Vašim čtenářům přístup k blogu a odkazujte na něj.</li></ul>"
+
+# @ jwl-ultimate-tinymce
+#: main.php:398
+msgid "Vote and Click Works"
+msgstr "Hlasujte kliknutím na Works"
+
+# @ jwl-ultimate-tinymce
+#: main.php:404
+msgid "Please take a few moments to visit the plugin download page to vote and click \"Works\".  You must have an account on wordpress to rate and vote. Signing up is quick and easy.<br /><br />Also, each time a new plugin update is available, it resets the \"Works\" count.  So, please do this each time you update the plugin.<br /><br /><a target=\"_blank\" href=\"http://wordpress.org/extend/plugins/ultimate-tinymce/\">Ultimate Tinymce Wordpress Page</a>"
+msgstr "Prosím věnujte okamžik návštěvě stránky pluginu a hlasujte kliknutím na \"Works\".  Pro hlasování na WordPress stránce pluginu musíte mít uživatelský účet. Vytvoření je rychlé a jednoduché.<br /><br />Při každé aktualizaci se resetuje počítadlo \"Works\" .  Prosím opakujte hlasování.<br /><br /><a target=\"_blank\" href=\"http://wordpress.org/extend/plugins/ultimate-tinymce/\">Ultimate Tinymce Wordpress Page</a>"
+
+# @ jwl-ultimate-tinymce
+#: main.php:409
+msgid "Twitter & Facebook"
+msgstr "Twitter & Facebook"
+
+# @ jwl-ultimate-tinymce
+#: main.php:422
+msgid "Tips and Tricks for the Admin Panel"
+msgstr "Tipy a triky pro Admin panel"
+
+# @ jwl-ultimate-tinymce
+#: main.php:424
+msgid "<span class=\"content_wrapper_title\">Screen Options:</span><ul class=\"help_tab_list_image\"><li>Click the \"Screen Options\" tab in the upper-right corner to enable further customization.</li><li>Set the Screen Columns to \"2\" for best results.</li><li>Decide which Meta-Boxes to show or hide.</li><li>Selections are saved in the database.</li></ul>"
+msgstr "<span class=\"content_wrapper_title\">Nastavení zobrazení:</span><ul class=\"help_tab_list_image\"><li>Kliněte na záložku \"Nastavení zobrazených informací\" v pravém horním rohu pro uživatelské nastavení.</li><li>Nastavení druhého sloupce pro lepší zobrazení.</li><li>Rozhodněte se, které Meta-Boxy zobrazit nebo skrýt.</li><li>Výběr je uložen v databázi.</li></ul>"
+
+# @ jwl-ultimate-tinymce
+#: main.php:427
+msgid "<span class=\"content_wrapper_title\">Meta Boxes:</span><ul class=\"help_tab_list_image\"><li>Each Meta-Box can be clicked to collapse/expand the contents of the box.</li><li>Boxes can be sorted by clicking and dragging the title area to a new location.</li><li>Open/Closed status and sorting arrangement are saved in the database.  So each time the page is visited; the last chosen layout remains.</li></ul>"
+msgstr "<span class=\"content_wrapper_title\">Meta Boxy:</span><ul class=\"help_tab_list_image\"><li>Na každý Meta-Box lze kliknout pro zbalení / rozbalení.</li><li>Boxy je možné seřadit kliknutím a tažením názvu na nové místo.</li><li>Stav Otevřeno / Zavřeno a třídění je uloženo v databázi.  Pokaždé navštěvě zůstavá nastavený poslední zvolený vzhled.</li></ul>"
+
+# @ jwl-ultimate-tinymce
+#: main.php:430
+msgid "<span class=\"content_wrapper_title\">Button Row Selection:</span><ul class=\"help_tab_list_image\"><li>Each button from this plugin can be assigned to one of the four rows of the editor.</li><li>For suggested best results, set all buttons used in \"Group One Buttons\" to Row 3 and set all buttons used in \"Group Two Buttons\" to Row 4.  <em>This is only recommended, and not mandatory.</em></li><li>If the buttons scroll off the editor screen, come back here and select a different row for those buttons.</li></ul>"
+msgstr "<span class=\"content_wrapper_title\">Uspořádání řádků tlačítek:</span><ul class=\"help_tab_list_image\"><li>Každé tlačítko z tohoto pluginu lze přiřadit k jednomu ze čtyř řádků v editoru.</li><li>K dosažení nejlepšího výsledku nastavte všechna tlačítka používaná ve \"Skupina tlačítek 1\" do řádku 3 a nastavit všechna tlačítka  ve \"Skupina tlačítek 2\" do řádku 4.  <em>Toto je pouze doporučení, nastavení není povinné.</em></li><li>If the buttons scroll off the editor screen, come back here and select a different row for those buttons.</li></ul>"
+
+# @ jwl-ultimate-tinymce
+#: main.php:436
+msgid "Load developers suggested settings."
+msgstr "Načíst doporučená nastavení."
+
+# @ jwl-ultimate-tinymce
+#: main.php:444
+msgid "Uninstall Plugin & Delete Database Entries:"
+msgstr "Odinstalovat plugin a smazat záznamy v databázi:"
+
+# @ default
+#: main.php:601
+#, fuzzy
+msgid "Cheatin&#8217; uh?"
+msgstr "???"
+
+# @ jwl-ultimate-tinymce
+#: main.php:617
+#: main.php:624
+#: main.php:632
+#: main.php:640
+#: main.php:648
+msgid "Update Options"
+msgstr "Aktualizovat nastavení"
+
+# @ jwl-ultimate-tinymce
+#: main.php:656
+msgid "Get help from the Support Forum."
+msgstr "Získat pomoc z fóra podpory."
+
+# @ jwl-ultimate-tinymce
+#: main.php:658
+msgid "Screencast part one"
+msgstr "První část YouTube videa"
+
+# @ jwl-ultimate-tinymce
+#: main.php:660
+msgid "Screencast part two"
+msgstr "Druhá část YouTube videa"
+
+# @ jwl-ultimate-tinymce
+#: main.php:662
+msgid "Get help from my personal blog."
+msgstr "Získat pomoc z mého osobního blogu."
+
+# @ jwl-ultimate-tinymce
+#: main.php:664
+msgid "Post a thread in the Wordpress Forums."
+msgstr "Přidat vlákno z Wordpress fóra."
+
+# @ jwl-ultimate-tinymce
+#: main.php:666
+msgid "Email me directly using my contact form."
+msgstr "Kontaktní formulář."
+
+# @ jwl-ultimate-tinymce
+#: main.php:668
+msgid "Subscribe to my RSS Feed."
+msgstr "Přihlásit můj RSS kanál."
+
+# @ jwl-ultimate-tinymce
+#: main.php:670
+msgid "Follow me on "
+msgstr "Sdílení"
+
+# @ jwl-ultimate-tinymce
+#: main.php:670
+msgid "Facebook"
+msgstr "Facebook"
+
+# @ jwl-ultimate-tinymce
+#: main.php:670
+msgid " and "
+msgstr "a"
+
+# @ jwl-ultimate-tinymce
+#: main.php:670
+msgid "Twitter"
+msgstr "Twitter"
+
+# @ jwl-ultimate-tinymce
+#: main.php:674
+msgid "In all honesty, the tinymce editor works best with the Mozilla Firefox browser.  If you are not a Firefox user, you might want to consider giving it a try when creating your content.  You can download the free browser by clicking the image below."
+msgstr "Mám li být upřímný, TinyMCE editor funguje nejlépe společně s prohlížečem Mozilla Firefox. Pokud nejste uživatelem Firefoxu, možná budete chtít zvážit použití a zkusit ho při vytváření Vašeho webu. Pro stažení můžete kliknout na obrázek níže."
+
+# @ jwl-ultimate-tinymce
+#: main.php:680
+msgid "Click Here to Vote and click \"Works\"..."
+msgstr "Klikněte zde a hlasujte \"Works\"..."
+
+# @ jwl-ultimate-tinymce
+#: main.php:680
+msgid "Voting helps my plugin get more exposure and higher rankings on the searches.<br /><br />Clicking \"Works\" on the Wordpress plugin download page shows others that Ultimate TinyMCE is stable, and encourages their download."
+msgstr "Hlasováním pomáháte zviditelnit můj plugin a získat vyšší pozici ve vyhledávání.<br /><br />Klikněte na \"Works\" na Wordpress stránce tohoto pluginu a ukažte ostatním, že TinyMCE je stabilní a podporujete jeho stahování."
+
+# @ jwl-ultimate-tinymce
+#: main.php:680
+msgid "Please help spread this wonderful plugin by showing your support.  Thank you!"
+msgstr "Prosím, pomozte šířit tento plugin tím, že ukazujete Vaši podporu. Děkuji vám!"
+
+# @ jwl-ultimate-tinymce
+#: main.php:685
+msgid "Like this plugin?  Blog about it on your website, link to my plugin page on my website <a target=\"_blank\" href=\"http://www.joshlobe.com/2011/10/ultimate-tinymce/\">HERE</a>, and I will add your website link here."
+msgstr "Líbí se Vám tento plugin?  Blogujte o tom na svých webových stránkách, odkazujte na webovou stránku mého pluginu<a target=\"_blank\" href=\"http://www.joshlobe.com/2011/10/ultimate-tinymce/\">ZDE</a>a já přidám Váš odkaz."
+
+# @ jwl-ultimate-tinymce
+#: main.php:685
+msgid "<br /><br /><strong>Special Thanks to these bloggers:</strong><br /><ul><li><a href=\"http://www.buzzing-t.nl/\" target=\"_blank\">Buzzing-t.nl</a></li><li><a href=\"http://onewhole.eu/\" target=\"_blank\">Onewhole.eu</a></li><li><a href=\"http://www.vanytastisch.ch/\" target=\"_blank\">Vanytastisch.ch</a></li><li><a href=\"http://animereviews.co\" target=\"_blank\">Animereviews.co</a></li><li><a href=\"http://blogigs.com/how-to-make-a-attractive-blog-post/\" target=\"_blank\">Blogigs</a></li><li><a href=\"http://www.untetheredincome.com/articles/wordpress/best-wordpress-plugins-2012/\" target=\"_blank\">Untethered Income</a></li><li><a href=\"http://www.bowierocks.com\" target=\"_blank\">BowieRocks</a></li></ul>"
+msgstr "<br /><br /><strong>Speciální poděkování patří těmto blogerům:</strong><br /><ul><li><a href=\"http://www.buzzing-t.nl/\" target=\"_blank\">Buzzing-t.nl</a></li><li><a href=\"http://onewhole.eu/\" target=\"_blank\">Onewhole.eu</a></li><li><a href=\"http://www.vanytastisch.ch/\" target=\"_blank\">Vanytastisch.ch</a></li><li><a href=\"http://animereviews.co\" target=\"_blank\">Animereviews.co</a></li><li><a href=\"http://blogigs.com/how-to-make-a-attractive-blog-post/\" target=\"_blank\">Blogigs</a></li><li><a href=\"http://www.untetheredincome.com/articles/wordpress/best-wordpress-plugins-2012/\" target=\"_blank\">Untethered Income</a></li><li><a href=\"http://www.bowierocks.com\" target=\"_blank\">BowieRocks</a></li></ul>"
+
+# @ jwl-ultimate-tinymce
+#: main.php:689
+msgid "Please take a moment to complete the short feedback form below.  Your input is greatly appreciated.  All input fields are optional."
+msgstr "Věnujte prosím chvilku k dokončení krátké zpětné vazby v kontaktním formulář níže."
+
+# @ jwl-ultimate-tinymce
+#: main.php:741
+msgid "New Plugin Features..."
+msgstr "Nové funkce pluginu..."
+
+# @ jwl-ultimate-tinymce
+#: main.php:741
+msgid "There are a few features I have been wanting to implement; but have found they are going to require more work than I originally anticipated.<br /><br />In the meantime, I'd like to take a poll of which features you consider to be of a higher priority.  Please vote on your favorite requested feature.  You can vote once per day.<br /><br />"
+msgstr "Existuje ještě několik funkcí které bych rád realizoval ale zjistil jsem, že to bude vyžadovat více práce než jsem původně předpokládal.<br /><br />Hlasujte, které funkce považujete za důležitější.Hlasovat můžete jednou denně.<br /><br />"
+
+# @ jwl-ultimate-tinymce
+#: options_callback_functions.php:5
+#: options_callback_functions.php:8
+msgid "<p>&nbsp;&nbsp;&nbsp;&nbsp;<strong><u>Description</u></strong><span style=\"margin-left:200px;\"><strong><u>Enable</u></strong></span><span style=\"margin-left:20px;\"><strong><u>Image</u></strong></span><span style=\"margin-left:35px;\"><strong><u>Help</u></strong></span><span style=\"margin-left:20px;\"><strong><u>Row Selection</u></strong></span></p>"
+msgstr "<p>&nbsp;&nbsp;&nbsp;&nbsp;<strong><u>Popis</u></strong><span style=\"margin-left:240px;\"><strong><u>Povolit</u></strong></span><span style=\"margin-left:10px;\"><strong><u>Obrázek</u></strong></span><span style=\"margin-left:10px;\"><strong><u>Nápověda</u></strong></span><span style=\"margin-left:10px;\"><strong><u>Výběr řádku</u></strong></span></p>"
+
+# @ jwl-ultimate-tinymce
+#: options_callback_functions.php:11
+#: options_callback_functions.php:14
+msgid " "
+msgstr " "
+
+#: options_callback_functions.php:17
+msgid "The options set above are available to the site administrator by default.<br />This feature will enable the editor for other user roles.  Multiple roles can be selected."
+msgstr "Možnosti nastavení jsou nastavené jako výchozí pouze pro administrátora. <br /> Tato funkce zpřístupní nastavení i pro ostatní uživatelské role. Vybrat lze i více rolí."
+
+# @ jwl-ultimate-tinymce
+#: options_callback_functions.php:491
+msgid "Don't miss the <a target=\"_blank\" href=\"http://www.plugins.joshlobe.com/wp-admin-colors/\">WP Admin Colors</a> addon."
+msgstr "Nenechte si ujít <a target=\"_blank\" href=\"http://www.plugins.joshlobe.com/wp-admin-colors/\">WP Admin Colors</a> doplněk."
+
+# @ jwl-ultimate-tinymce
+#: options_callback_functions.php:525
+msgid "Simply use the <b>[break]</b> shortcode"
+msgstr "Jednoduše použijte shortcode <b>[break]</b> "
+
+# @ jwl-ultimate-tinymce
+#: options_callback_functions.php:530
+msgid "Ex. <b>[one_half]</b>This is the left column.<b>[/one_half]</b> <b>[one_half_last]</b>This is the right column.<b>[/one_half_last]</b>"
+msgstr "Například <b>[one_half]</b>Pro levý sloupec.<b>[/one_half]</b> <b>[one_half_last]</b>Pro pravý sloupec.<b>[/one_half_last]</b>"
+
+# @ jwl-ultimate-tinymce
+#: options_callback_functions.php:545
+msgid "(Disable wpautop) - <b>Read the help file first</b>."
+msgstr "(Vypnout wpautop) - <b>Nejprve si přečtěte nápovědu</b>."
+
+#: options_callback_functions.php:550
+msgid "Restore scrollbar position after saving post/page content."
+msgstr "Obnovit pozici posuvníku po uložení příspěvku či stránky."
+
+# @ jwl-ultimate-tinymce
+#: options_callback_functions.php:558
+msgid "<br />Insert the above code using the <b>[signoff]</b> shortcode within your post."
+msgstr "<br />Umístěte výše uvedený shortcode <b>[signoff]</b> v rámci svého příspěvku."
+
+# @ default
+#: options_functions.php:323
+msgid "ID"
+msgstr "ID"
+
+# @ default
+#: options_functions.php:351
+msgid "Arbitrary text, HTML, or PHP Code"
+msgstr "Libovolný text, HTML nebo PHP kód"
+
+# @ default
+#: options_functions.php:353
+msgid "PHP Code"
+msgstr "PHP kód"
+
+# @ default
+#: options_functions.php:388
+msgid "Title:"
+msgstr "Název:"
+
+# @ default
+#: options_functions.php:393
+msgid "Automatically add paragraphs."
+msgstr "Automaticky přidat odstavec."
+
+# @ jwl-ultimate-tinymce
+#: includes/defaults.php:27
+msgid "Load Default Settings"
+msgstr "Načíst výchozí nastavení"
+
+# @ jwl-ultimate-tinymce
+#: includes/defaults.php:32
+#: includes/defaults.php:54
+msgid "You must also check the confirm box before default options will be loaded."
+msgstr "Před načtením výchozích nastavení musíte zaškrtnout potvrzení."
+
+# @ jwl-ultimate-tinymce
+#: includes/defaults.php:38
+msgid "<ul class=\"help_tab_list_image\"><li>Load developers suggested default settings.</li><li>Basically, two additional rows will be added to the editor (rows 3 and 4).  Each with approximately 15 to 19 buttons each.</li><li>Options are still freely customizable, and can be tweaked after default settings are loaded.</li><li>Remember you might need to click the \"show/hide kitchen sink\" button in row 1 of your editor to expand row 2 buttons.</li></ul>"
+msgstr "<ul class=\"help_tab_list_image\"><li>Načíst doporučená výchozí nastavení.</li><li>Zjednodušeně řečeno, přidá do editoru dva další řádky (řádek 3 a 4).  Každý přibližně s 15 a 19 tlačítky.</li></ul>"
+
+# @ jwl-ultimate-tinymce
+#: includes/defaults.php:42
+msgid "<b>Please confirm before proceeding</b><br /><br />"
+msgstr "<b>Před pokračováním prosím potvrďte</b><br /><br />"
+
+# @ jwl-ultimate-tinymce
+#: includes/defaults.php:43
+msgid "Load Defaults"
+msgstr "Načíst výchozí"
+
+# @ jwl-ultimate-tinymce
+#: includes/uninstall.php:30
+msgid "Uninstall Ultimate Tinymce"
+msgstr "Odinstalovat Ultimate Tinymce"
+
+# @ jwl-ultimate-tinymce
+#: includes/uninstall.php:36
+#: includes/uninstall.php:55
+msgid "You must also check the confirm box before options will be uninstalled and deleted."
+msgstr "Při odinstalování musíte zaškrtnout potvrzující políčko."
+
+# @ jwl-ultimate-tinymce
+#: includes/uninstall.php:41
+msgid "<ul class=\"help_tab_list_image\"><li>The options for this plugin are not removed upon deactivation to ensure that no data is lost unintentionally.</li><li>If you wish to remove all plugin information from your database be sure to run this uninstall utility first.</li><li>This is a great way to \"reset\" the plugin, in case you experience problems with the editor.</li><li>This option is NOT reversible. Ultimate Tinymce plugin settings will need to be re-configured if deleted.</li></ul>"
+msgstr "<ul class=\"help_tab_list_image\"><li>Nastavení tohoto pluginu není po deaktivaci odstraněno proto, aby nedošlo k neúmyslné ztrátě dat .</li><li>Pokud chcete z databáze odstranit všechna nastavení pluginu, ujistěte se, že spustíte tento nástroj jako první.</li><li>Toto je nejlepší možnost \"resetovat\" plugin v případě, že problémy s editorem.</li><li>Tato volba je nevratná. Pokud dojde k vymazání nastavení pluginu TinyMCE bude třeba jej znovu nastavit.</li></ul>"
+
+# @ jwl-ultimate-tinymce
+#: includes/uninstall.php:43
+msgid "Please confirm before proceeding<br /><br />"
+msgstr "Před pokračováním prosím potvrďte<br /><br />"
+
+# @ jwl-ultimate-tinymce
+#: includes/uninstall.php:44
+msgid "Uninstall"
+msgstr "Odinstalovat"
+

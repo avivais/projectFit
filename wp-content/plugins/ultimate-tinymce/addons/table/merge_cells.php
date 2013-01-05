@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>{#table_dlg.merge_cells_title}</title><?php
+	$file = dirname(__FILE__);
+	$file = substr($file, 0, stripos($file, "wp-content") );
+	require( $file . "/wp-load.php");
+	$url = includes_url();
+	echo '<script type="text/javascript" src="'.$url.'js/tinymce/tiny_mce_popup.js'.'"></script>';
+	echo '<script type="text/javascript" src="'.$url.'js/tinymce/utils/mctabs.js'.'"></script>';
+	echo '<script type="text/javascript" src="'.$url.'js/tinymce/utils/validate.js'.'"></script>';
+	?>
+    <!--
+	<script type="text/javascript" src="../../tinymce/tiny_mce_popup.js"></script>
+	<script type="text/javascript" src="../../tinymce/mctabs.js"></script>
+	<script type="text/javascript" src="../../tinymce/validate.js"></script>
+    -->
+	<script type="text/javascript" src="js/merge_cells.js"></script>
+</head>
+<body style="margin: 8px" role="application">
+<form onsubmit="MergeCellsDialog.merge();return false;" action="#">
+	<fieldset>
+		<legend>{#table_dlg.merge_cells_title}</legend>
+		<table role="presentation" border="0" cellpadding="0" cellspacing="3" width="100%">
+			<tr>
+				<td><label for="numcols">{#table_dlg.cols}</label>:</td>
+				<td align="right"><input type="text" id="numcols" name="numcols" value="" class="number min1 mceFocus" style="width: 30px" aria-required="true" /></td>
+			</tr>
+			<tr>
+				<td><label for="numrows">{#table_dlg.rows}</label>:</td>
+				<td align="right"><input type="text" id="numrows" name="numrows" value="" class="number min1" style="width: 30px" aria-required="true" /></td>
+			</tr>
+		</table>
+	</fieldset>
+
+	<div class="mceActionPanel">
+		<input type="submit" id="insert" name="insert" value="{#update}" />
+		<input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+	</div>
+</form>
+</body>
+</html>

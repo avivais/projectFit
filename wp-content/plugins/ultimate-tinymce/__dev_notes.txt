@@ -1,0 +1,6 @@
+* Must Update Tinymce folder when new version of Wordpress or Tinymce is released.
+
+TO-DO:
+* SHortcodes acting funny on various installations.  /***** DONE *****/
+* Extra space sometimes inserted with HTML magic.
+* Drag and Drop functionality for buttons.

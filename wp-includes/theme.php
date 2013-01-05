@@ -1180,6 +1180,67 @@ function _custom_background_cb() {
 ?>
 <style type="text/css" id="custom-background-css">
 body.custom-background { <?php echo trim( $style ); ?> }
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+	body.custom-background {
+		background-image: url('/projectFit/wp-content/themes/simplecorp/library/images/bg-smartland.jpg');	
+	}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+	body.custom-background {
+		background-image: url('/projectFit/wp-content/themes/simplecorp/library/images/bg-smartport.jpg');	
+	}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+	body.custom-background {
+		background-image: url('/projectFit/wp-content/themes/simplecorp/library/images/bg-ipadland.jpg');	
+	}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	body.custom-background {
+		background-image: url('/projectFit/wp-content/themes/simplecorp/library/images/bg-ipadport.jpg');	
+	}
+}
+
+/* Half Screens --------- */
+@media only screen 
+and (min-width : 322px) {
+	body.custom-background {
+		background-image: url('/projectFit/wp-content/themes/simplecorp/library/images/bg-smallscreens.jpg');	
+	}
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 768px) {
+	body.custom-background {
+		background-image: url('/projectFit/wp-content/themes/simplecorp/library/images/bg-laptops.jpg');	
+	}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+	body.custom-background {
+		background-image: url('/projectFit/wp-content/themes/simplecorp/library/images/bg-screens.jpg');	
+	}
+}
 </style>
 <?php
 }

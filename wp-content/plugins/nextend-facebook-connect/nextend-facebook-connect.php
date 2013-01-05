@@ -3,7 +3,7 @@
 Plugin Name: Nextend Facebook Connect
 Plugin URI: http://nextendweb.com/
 Description: This plugins helps you create Facebook login and register buttons. The login and register process only takes one click.
-Version: 1.4.35
+Version: 1.4.36
 Author: Roland Soos
 License: GPL2
 */
@@ -101,23 +101,23 @@ add_filter('init', 'new_fb_add_query_var');
 /*
   Compatibility for older versions
 */
-add_action('parse_request', new_fb_login_compat);
 function new_fb_login_compat(){
   global $wp;
   if($wp->request == 'loginFacebook' || isset($wp->query_vars['loginFacebook']) ){
     new_fb_login_action();
   }
 }
+add_action('parse_request', 'new_fb_login_compat');
 
 /*
   For login page
 */
-add_action('login_init', new_fb_login);
 function new_fb_login(){
   if($_REQUEST['loginFacebook'] == '1'){
     new_fb_login_action();
   }
 }
+add_action('login_init', 'new_fb_login');
 
 function new_fb_login_action(){
   global $wp, $wpdb, $new_fb_settings;
@@ -172,7 +172,6 @@ function new_fb_login_action(){
                 'last_name' => $user_profile['last_name']
               ));
               update_user_meta( $ID, 'fb_profile_picture', 'https://graph.facebook.com/'.$user_profile['id'].'/picture?type=large');
-		update_user_meta( $ID, 'fb_birthday', $user_profile['birthday']);
             }else{
               return;
             }
@@ -251,7 +250,7 @@ function new_fb_login_action(){
     }
     exit;
   }else{
-    $loginUrl = $facebook->getLoginUrl(array('scope' => 'email,offline_access,user_birthday') );
+    $loginUrl = $facebook->getLoginUrl(array('scope' => 'email,offline_access') );
     if(isset($new_fb_settings['fb_redirect']) && $new_fb_settings['fb_redirect'] != '' && $new_fb_settings['fb_redirect'] != 'auto'){
       $_GET['redirect'] = $new_fb_settings['fb_redirect'];
     }
@@ -308,7 +307,6 @@ function new_add_fb_connect_field() {
 add_action('profile_personal_options', 'new_add_fb_connect_field');
 
 function new_add_fb_login_form(){
-  global $new_fb_settings;
   ?>
   <script type="text/javascript">
   if(jQuery.type(has_social_form) === "undefined"){
@@ -392,7 +390,7 @@ function new_fb_sign_button(){
 
 function new_fb_link_button(){
   global $new_fb_settings;
-  return '<a href="'.new_fb_login_url().'&redirect='.site_url().$_SERVER["REQUEST_URI"].'">'.$new_fb_settings['fb_link_button'].'</a><br />';
+  return '<a href="'.new_fb_login_url().'&redirect='.site_url().$GLOBALS['HTTP_SERVER_VARS']['REQUEST_URI'].'">'.$new_fb_settings['fb_link_button'].'</a><br />';
 }
 
 function new_fb_login_url(){
@@ -410,7 +408,7 @@ function new_fb_edit_profile_redirect(){
     exit;
   }
 }
-add_action('parse_request', new_fb_edit_profile_redirect);
+add_action('parse_request', 'new_fb_edit_profile_redirect');
 
 function new_fb_jquery(){
   wp_enqueue_script( 'jquery' );

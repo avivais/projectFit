@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.title {
+	color:#CC66FF;
+	background-image: linear-gradient(bottom, rgb(148,255,138) 13%, rgb(194,255,214) 68%) !important;
+background-image: -o-linear-gradient(bottom, rgb(148,255,138) 13%, rgb(194,255,214) 68%) !important;
+background-image: -moz-linear-gradient(bottom, rgb(148,255,138) 13%, rgb(194,255,214) 68%) !important;
+background-image: -webkit-linear-gradient(bottom, rgb(148,255,138) 13%, rgb(194,255,214) 68%) !important;
+background-image: -ms-linear-gradient(bottom, rgb(148,255,138) 13%, rgb(194,255,214) 68%) !important;
+background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.13, rgb(148,255,138)), color-stop(0.68, rgb(194,255,214))) !important;
+}

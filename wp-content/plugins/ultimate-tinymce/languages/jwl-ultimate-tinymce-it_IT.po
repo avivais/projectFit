@@ -1,0 +1,307 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jwl-ultimate-tinymce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-12-01 21:12-0500\n"
+"PO-Revision-Date: 2012-02-07 00:18+0100\n"
+"Last-Translator: david pesarin brocato <david.pesarin@gmail.com>\n"
+"Language-Team: Josh Lobe <joshlobe@joshlobe.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: main.php:76
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: main.php:100
+msgid "Bold Red Text"
+msgstr "Testo grassetto rosso"
+
+#: main.php:101
+msgid "Bold Green Text"
+msgstr "Testo grassetto verde"
+
+#: main.php:102
+msgid "Bold Blue Text"
+msgstr "Testo grassetto blu"
+
+#: main.php:103
+msgid "Borders"
+msgstr "Bordi"
+
+#: main.php:104
+msgid "Border Black"
+msgstr "Bordo nero"
+
+#: main.php:105
+msgid "Border Red"
+msgstr "Bordo rosso"
+
+#: main.php:106
+msgid "Border Green"
+msgstr "Bordo verde"
+
+#: main.php:107
+msgid "Border Blue"
+msgstr "Bordo blu"
+
+#: main.php:108
+msgid "Float"
+msgstr "Float"
+
+#: main.php:109
+msgid "Float Left"
+msgstr "Float a sinistra"
+
+#: main.php:110
+msgid "Float Right"
+msgstr "Float a destra"
+
+#: main.php:111
+msgid "Alerts"
+msgstr "Allarme"
+
+#: main.php:112
+msgid "Normal Alert"
+msgstr "Allarme normale"
+
+#: main.php:113
+msgid "Green Alert"
+msgstr "Allarme verde"
+
+#: main.php:114
+msgid "Yellow Alert"
+msgstr "Allarme giallo"
+
+#: main.php:115
+msgid "Red Alert"
+msgstr "Allarme rosso"
+
+#: main.php:133
+msgid "Ultimate TinyMCE"
+msgstr "Ultimate TinyMCE"
+
+#: main.php:146
+msgid "Ultimate TinyMCE Plugin Menu"
+msgstr "Ultimate TinyMCE menu plugin"
+
+#: main.php:168
+msgid "Save your Selection"
+msgstr "Salva la tua selezione"
+
+#: main.php:178
+msgid "Donations"
+msgstr "Donazioni"
+
+#: main.php:180
+msgid "Even the smallest donations are gratefully accepted."
+msgstr "Anche la più piccola donazione è accettata con gratitudine."
+
+#: main.php:193
+msgid "Additional Resources"
+msgstr "Risorse addizionali"
+
+#: main.php:195
+msgid "View plugin documentation (opens in Word)."
+msgstr "Vedi la documentazione del plugin (in formato MS Word)"
+
+#: main.php:196
+msgid "Screencast part one"
+msgstr "Screencast prima parte"
+
+#: main.php:197
+msgid "Screencast part two"
+msgstr "Screencast seconda parte"
+
+#: main.php:198
+msgid "Get help from my personal blog."
+msgstr "Ottieni aiuto dal mio blog personale."
+
+#: main.php:199
+msgid "Post a thread in the Wordpress Plugin Page."
+msgstr "Pubblica una discussione sulla pagina del plugin in Wordpress. "
+
+#: main.php:200
+msgid "Email me directly using my contact form."
+msgstr "Inviami una email usando il modulo di contatto."
+
+#: main.php:201
+msgid "Subscribe to my RSS Feed."
+msgstr "Abbonati al mio Feed RSS."
+
+#: main.php:202
+msgid "Follow me on "
+msgstr "Seguimi su"
+
+#: main.php:202
+msgid "Facebook"
+msgstr "Facebook"
+
+#: main.php:202
+msgid " and "
+msgstr "e"
+
+#: main.php:202
+msgid "Twitter"
+msgstr "Twitter"
+
+#: main.php:209
+msgid "Please VOTE and click WORKS."
+msgstr "Prego VOTA e clicca su WORKS."
+
+#: main.php:211
+msgid "Click Here to Vote..."
+msgstr "Clicca qui per votare..."
+
+#: main.php:211
+msgid "Voting helps my plugin get more exposure and higher rankings on the searches."
+msgstr "Votando il plugin contribuirai  a metterlo più in evidenza e a farlo salire nel ranking delle ricerche."
+
+#: main.php:211
+msgid "Please help spread this wonderful plugin by showing your support.  Thank you!"
+msgstr "Aiuta a diffondere questo bellissimo plugin dando il tuo supporto. Grazie!"
+
+#: main.php:218
+msgid "Feedback"
+msgstr "Feedback"
+
+#: main.php:220
+msgid "Please take a moment to complete the short feedback form below.  Your input is greatly appreciated."
+msgstr "Spendi solo un momento per completare il modulo feedback. La tua opinione è importante."
+
+#: main.php:240
+msgid "Row 3 Button Settings"
+msgstr "Impostazioni fila 3 pulsanti."
+
+#: main.php:241
+msgid "Row 4 Button Settings"
+msgstr "Impostazioni fila 4 pulsanti."
+
+#: main.php:247
+msgid "Font Select Box"
+msgstr "Pannello selezione font"
+
+#: main.php:248
+msgid "Font Size Box"
+msgstr "Pannello grandezza font"
+
+#: main.php:249
+msgid "Style Select Box"
+msgstr "Pannello selezione stile"
+
+#: main.php:250
+msgid "Cut Box"
+msgstr "Pannello Taglia"
+
+#: main.php:251
+msgid "Copy Box"
+msgstr "Pannello Copia"
+
+#: main.php:252
+msgid "Paste Box"
+msgstr "Pannello Incolla"
+
+#: main.php:253
+msgid "Background Color Picker Box"
+msgstr "Selezione colore di fondo"
+
+#: main.php:254
+msgid "Foreground Color Picker Box"
+msgstr "Selezione colore primo piano"
+
+#: main.php:255
+msgid "Horizontal Row Box"
+msgstr "Pannello riga orizzontale"
+
+#: main.php:256
+msgid "Visual Aid Box"
+msgstr "Pannello aiuto"
+
+#: main.php:257
+msgid "Anchor Box"
+msgstr "Pannello Ancora"
+
+#: main.php:258
+msgid "Subscript Box"
+msgstr "Pannello pedice"
+
+#: main.php:259
+msgid "Superscript Box"
+msgstr "Pannello apice"
+
+#: main.php:260
+msgid "Search Box"
+msgstr "Pannello Cerca"
+
+#: main.php:261
+msgid "Replace Box"
+msgstr "Pannello Sostituisci"
+
+#: main.php:263
+msgid "Josh's Ultimate Moods Box"
+msgstr "Ultimate Moods Box di Josh"
+
+#: main.php:266
+msgid "Table Controls Box"
+msgstr "Pannello Controlli Tabella"
+
+#: main.php:267
+msgid "Emotions Box"
+msgstr "Pannello Emoticons"
+
+#: main.php:268
+msgid "Advanced Image Box"
+msgstr "Pannello avanzato Immagine"
+
+#: main.php:269
+msgid "Preview Box"
+msgstr "Anteprima"
+
+#: main.php:270
+msgid "Citations Box"
+msgstr "Pannello Citazione"
+
+#: main.php:271
+msgid "Abbreviations Box"
+msgstr "Pannello Abbreviazioni"
+
+#: main.php:272
+msgid "Acronym Box"
+msgstr "Pannello Acronimi"
+
+#: main.php:273
+msgid "Delete Box"
+msgstr "Pannello Cancella "
+
+#: main.php:274
+msgid "Insert Box"
+msgstr "Pannello Inserisci"
+
+#: main.php:275
+msgid "Attributes Box"
+msgstr "Pannello Attributi"
+
+#: main.php:276
+msgid "Styleprops Box"
+msgstr "Pannello Stile oggetti"
+
+#: main.php:277
+msgid "HTML Code Box"
+msgstr "Pannello codice HTML"
+
+#: main.php:279
+msgid "Insert Media Box"
+msgstr "Pannello Inserisci Media "
+
+#: main.php:335
+msgid "<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;Here you can select which buttons to include in row 3 of the TinyMCE editor.</strong></p>"
+msgstr "<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;Qui puoi selezionare quali pulsanti includere nella terza fila dell' editor TinyMCE.</strong></p>"
+
+#: main.php:339
+msgid "<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;Here you can select which buttons to include in row 4 of the TinyMCE editor.</strong></p>"
+msgstr "<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;Qui puoi selezionare quali pulsanti includere nella quarta fila dell' editor TinyMCE.</strong></p>"
+
