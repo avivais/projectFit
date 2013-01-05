@@ -49,8 +49,8 @@
 						<?php } else { ?>
 						<?php echo of_get_option('sc_footer_copyright')  ?>
 						<?php } ?>
-						<!-- Site5 Credits-->
-						<br>Created by <a href="http://www.s5themes.com/">Site5 WordPress Themes</a>. Experts in <a href="http://gk.site5.com/t/568">WordPress Hosting</a>. 
+						<!-- Avi Credits-->
+						<br>Created by <a href="http://www.facebook.com/avivais/" target="_blank">Avi Vaisenberger</a> 
 
 						
 					</div>
