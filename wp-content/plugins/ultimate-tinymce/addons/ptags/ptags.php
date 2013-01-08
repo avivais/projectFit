@@ -27,11 +27,11 @@
 var jwl2_sel_content4 = tinyMCE.activeEditor.selection.getContent();
 </script>
 
-{#ptags_dlg.id}<br>
+{#ptags_dlg.jwlid}<br>
 <input id="id_value" type="text" name="id" width="200px" value="" /> <em> {#ptags_dlg.noteP2}</em><br><br>
-{#ptags_dlg.class}<br>
+{#ptags_dlg.jwlclass}<br>
 <input id="classes_value" type="text" name="class" width="200px" value="" /> <em> {#ptags_dlg.noteP2}</em><br><br>
-{#ptags_dlg.style}<br>
+{#ptags_dlg.jwlstyle}<br>
 <input id="styles_value" type="text" name="style" width="200px" value="" /> <em> {#ptags_dlg.noteP2}</em>
 <br /><br />
 </div>

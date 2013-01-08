@@ -4,7 +4,7 @@ Donate link: http://worpit.com/
 Tags: CSS, WordPress Admin, Twitter Bootstrap, Twitter Bootstrap Javascript, Bootstrap CSS, WordPress Bootstrap, normalize, reset, YUI
 Requires at least: 3.2.0
 Tested up to: 3.5
-Stable tag: 2.2.2.a
+Stable tag: 2.2.2.b
 
 WordPress Twitter Bootstrap CSS lets you include the latest Twitter Bootstrap CSS and Javascript libraries in your WordPress site.
 
@@ -192,6 +192,14 @@ Don't select this unless you know you need it - no harm if you do, but no point 
 * Provide better upgrade support for customized Variable.less files. Currently if you've customized your Variables.less file manually
 you'll need to back it up before you upgrade your Bootstrap plugin.
 * Provide option to combine Bootstrap and Bootstrap Responsive CSS files into one as a small optimization.
+* Allow user to toggle include method for libraries.
+* Optimize the include code to run only once.
+
+= 2.2.2.b =
+* ADDED: option to include Bootstrap CSS in the WP Editor (request: http://wordpress.org/support/topic/include-twitter-bootstrap-to-wp-editor)
+* ADDED: Now uses CDNJS for the source of the jQuery CDN option is selected.
+* ADDED: The option to use [CDNJS](http://wordpress.org/extend/plugins/cdnjs/) for the main Twitter Bootstrap library files - note, if you're using the LESS compiler, then it will use files on your server as it cannot store your personal customizations on CDNJS.
+* CHANGED: Requirements changed - if you opt to use CDNJS, you must have WordPress 3.5+
 
 = 2.2.2.a =
 * UPDATED: Twitter Bootstrap library to version 2.2.2
@@ -430,6 +438,8 @@ is temporary until we fix.
 
 == Upgrade Notice ==
 
-= 2.2.2.a =
-* UPDATED: Twitter Bootstrap library to version 2.2.2
-* FIXED: Reported bug: http://wordpress.org/support/topic/tbs_span-size3-offset4-generates-wrong-code
+= 2.2.2.b =
+* ADDED: option to include Bootstrap CSS in the WP Editor (request: http://wordpress.org/support/topic/include-twitter-bootstrap-to-wp-editor)
+* ADDED: Now uses CDNJS for the source of the jQuery CDN option is selected (replaces Google CDN)
+* ADDED: The option to use [CDNJS](http://wordpress.org/extend/plugins/cdnjs/) for the main Twitter Bootstrap library files - note, if you're using the LESS compiler, then it will use files on your server as it cannot store your personal customizations on CDNJS.
+* CHANGED: Requirements changed - if you opt to use CDNJS, you must have WordPress 3.5+

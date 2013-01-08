@@ -24,7 +24,7 @@
 				<div class="three-fourth">
 
 
-					<h1><?php _e("Our Blog", "site5framework"); ?> 
+					<h1><?php _e("WODs", "site5framework"); ?> 
 					<?php
 					$singledescpage = of_get_option('sc_singledesc');
 					$singledesc = get_post_meta($singledescpage, 'snbpd_pagedesc');

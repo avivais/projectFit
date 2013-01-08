@@ -436,16 +436,16 @@ ul#social-links {
 	text-indent:-9999px;*/
 }
 #logo-wrapper {
-float:left;
-width:240px;
-height:200px;
+	float:left;
+	width:340px;
+	height:200px;
 }
 #logo-wrapper h1 {
-   margin-bottom: 0;
+	margin: 0;
 }
 #tagline {
-   margin:0;
-   white-space: nowrap;
+	margin:0;
+	white-space: nowrap;
 }
 #responsive-social-menu{
 	display: none;
