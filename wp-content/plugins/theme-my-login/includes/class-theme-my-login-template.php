@@ -144,7 +144,7 @@ class Theme_My_Login_Template {
 				case 'retrievepassword':
 				case 'resetpass':
 				case 'rp':
-					$title = __( 'Lost Password', 'theme-my-login' );
+					$title = __( 'Lost Password?', 'theme-my-login' );
 					break;
 				case 'login':
 				default:
@@ -277,10 +277,11 @@ class Theme_My_Login_Template {
 		$action_links = array();
 		if ( $args['login'] && $this->options['show_log_link'] )
 			$action_links[] = array( 'title' => $this->get_title( 'login' ), 'url' => $this->get_action_url( 'login' ) );
-		if ( $args['register'] && $this->options['show_reg_link'] && get_option( 'users_can_register' ) )
-			$action_links[] = array( 'title' => $this->get_title( 'register' ), 'url' => $this->get_action_url( 'register' ) );
 		if ( $args['lostpassword'] && $this->options['show_pass_link'] )
 			$action_links[] = array( 'title' => $this->get_title( 'lostpassword' ), 'url' => $this->get_action_url( 'lostpassword' ) );
+		if ( $args['register'] && $this->options['show_reg_link'] && get_option( 'users_can_register' ) )
+			$action_links[] = array( 'title' => $this->get_title( 'register' ), 'url' => $this->get_action_url( 'register' ) );
+
 		return apply_filters( 'tml_action_links', $action_links, $args );
 	}
 
@@ -295,9 +296,12 @@ class Theme_My_Login_Template {
 	function the_action_links( $args = '' ) {
 		if ( $action_links = $this->get_action_links( $args ) ) {
 			echo '<div class="tml-action-links">' . "\n";
+			$actionLinksArr = array();
 			foreach ( (array) $action_links as $link ) {
-				echo '<div><a class="btn btn-danger" href="' . esc_url( $link['url'] ) . '" rel="nofollow">' . esc_html( $link['title'] ) . '</a></div>' . "\n";
+				$actionLinksArr[] = '<div class="inline-block action"><a href="' . esc_url( $link['url'] ) . '" rel="nofollow">' . esc_html( $link['title'] ) . '</a></div>' . "\n";
 			}
+			$glue = '<div class="inline-block seperator">/</div>';
+			echo implode( $glue, $actionLinksArr);
 			echo '</div>' . "\n";
 		}
 	}

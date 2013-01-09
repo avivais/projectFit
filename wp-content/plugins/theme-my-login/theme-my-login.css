@@ -2,10 +2,6 @@
 	padding: 5px;
 }
 
-.login p {
-	text-align: center;
-}
-
 .login p.error {
 	padding: 5px;
 	border: 1px solid #c00;
@@ -24,12 +20,48 @@
 	display: block;
 }
 
+.login form p {
+	margin-bottom: 5px;
+}
+
 .login form p.forgetmenot label {
 	display: inline;
 }
 
+.login form p label {
+	display: inline-block;
+	float: left;
+	clear: left;
+	width: auto;
+	text-align: right;
+	margin-top: 10px;
+	width: 90px;
+	text-align: left;
+}
+
 .login input {
 	margin: 5px 0;
+}
+
+.login form p.forgetmenot {
+	margin-top: -10px;
+	margin-bottom: 2px;
+}
+
+.login form p.forgetmenot label {
+	float: none;
+	position: relative;
+	top: 2px;
+	font-size: .85em;
+}
+
+.login form input#rememberme {
+	font-size: .3em;
+}
+
+.login form p.submit {
+	margin-top: 10px;
+	margin-right: 25px;
 }
 
 .profile .screen-reader-text,
@@ -49,6 +81,21 @@
 
 .mu_register label.checkbox {
 	display: inline;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.action a, action a:hover, action a:active {
+	font-size: .9em;
+	color: #06C !important;
+}
+
+.oroption {
+	position: relative;
+	top: 5px;
+	left: 20px;
 }
 
 #pass-strength-result {
@@ -91,11 +138,13 @@
 }
 
 div.tml-action-links {
-	text-align: center;
+	text-align: left;
+	margin-top: 15px;
 }
 
-div.tml-action-links div {
-	margin-bottom: 20px;
+div.tml-action-links .seperator {
+	margin-left: 2px;
+	margin-right: 5px;
 }
 
 div#page .container h1 {
@@ -103,13 +152,17 @@ div#page .container h1 {
 }
 
 div#theme-my-login {
-	-moz-box-shadow: 0 0 40px #FFF;
-	-webkit-box-shadow: 0 0 40px #FFF;
-	box-shadow: 0 0 40px #FFF;
+	-moz-box-shadow: 0 0 10px #FFF;
+	-webkit-box-shadow: 0 0 10px #FFF;
+	box-shadow: 0 0 10px #FFF;
 	border: 1px solid #888;
 	padding: 20px;
-	width: 80%;
+	width: 40%;
 	margin: auto;
-	background-color: #DDD;
+	background-color: #FFF;
 	color: #888;
+}
+
+form#loginform p:first-of-type {
+	margin-top: 20px;
 }

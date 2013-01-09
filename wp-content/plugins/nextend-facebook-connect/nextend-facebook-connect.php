@@ -318,9 +318,9 @@ function new_add_fb_login_form(){
       if(!has_social_form){
         has_social_form = true;
         var loginForm = $.merge($('#loginform'),$('#registerform'));
-        socialLogins = $('<div class="newsociallogins" style="text-align: center;"><div style="clear:both;"></div></div>');
+        socialLogins = $('<div class="newsociallogins inline-block"></div>');
         if(loginForm.find('input').length > 0)
-          loginForm.prepend("<h3 style='text-align:center;'>OR</h3>");
+          loginForm.prepend("<h3 class=\"inline-block oroption\">OR</h3>");
         loginForm.prepend(socialLogins);
       }
       if(!window.fb_added){

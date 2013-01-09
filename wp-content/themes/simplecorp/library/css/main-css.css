@@ -218,6 +218,7 @@ ul#social-links {
   ul#social-links li  a.rss {  background: url("../images/icons/rss.png") 50% 50% no-repeat }
   ul#social-links li  a.linkedin {  background: url("../images/icons/linkedin.png") 50% 50% no-repeat }
   ul#social-links li  a.pinterest {  background: url("../images/icons/pinterest.png") 50% 50% no-repeat }
+  ul#social-links li  a.youtube {  background: url("../images/icons/youtube.png") 50% 50% no-repeat }
  ul#social-links > li.facebook-link:hover {
    float: left;
    font-size: 12px;
@@ -254,7 +255,7 @@ ul#social-links {
    -moz-box-shadow: 0px 1px 1px #6cb6cf,inset 0px 2px 5px #7fc9e2;
    -webkit-box-shadow: 0px 1px 1px #6cb6cf,inset 0px 2px 5px #7fc9e2;
  }
- ul#social-links > li.google-link:hover {
+ ul#social-links > li.google-link:hover, ul#social-links > li.youtube-link:hover {
    float: left;
    font-size: 12px;
    width: 32px;

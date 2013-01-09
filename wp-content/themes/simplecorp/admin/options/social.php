@@ -7,12 +7,14 @@
                         "id" => $shortname."_twitter",
                         "std" => "",
                         "type" => "text");
-						
 	$options[] = array( "name" => "Facebook URL",
                         "id" => $shortname."_facebook",
                         "std" => "",
                         "type" => "text");
-
+	$options[] = array( "name" => "YouTube URL",
+						"id" => $shortname."_youtube",
+						"std" => "",
+						"type" => "text");
     $options[] = array( "name" => "Google+ URL",
                         "id" => $shortname."_googleplus",
                         "std" => "",

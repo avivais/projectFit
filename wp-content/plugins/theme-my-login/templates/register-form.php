@@ -22,7 +22,7 @@ do_action_ref_array( 'tml_register_form', array( &$template ) ); //TML hook
 ?>
 		<p id="reg_passmail<?php $template->the_instance(); ?>"><?php echo apply_filters( 'tml_register_passmail_template_message', __( 'A password will be e-mailed to you.', 'theme-my-login' ) ); ?></p>
         <p class="submit">
-            <input type="submit" name="wp-submit" id="wp-submit<?php $template->the_instance(); ?>" value="<?php _e( 'Register', 'theme-my-login' ); ?>" />
+            <input type="submit" class="btn btn-primary"name="wp-submit" id="wp-submit<?php $template->the_instance(); ?>" value="<?php _e( 'Register', 'theme-my-login' ); ?>" />
 			<input type="hidden" name="redirect_to" value="<?php $template->the_redirect_url( 'register' ); ?>" />
 			<input type="hidden" name="instance" value="<?php $template->the_instance(); ?>" />
         </p>
